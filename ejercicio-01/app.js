@@ -1,0 +1,12 @@
+const btn = document.querySelector('.showme')
+const h1 = document.querySelector('#pillado')
+const pElements = document.querySelectorAll('p')
+const pokemonElements = document.querySelectorAll('.pokemon')
+const spanElements = document.querySelectorAll('span[data-function="testMe"]')
+
+console.log(btn)
+console.log(h1)
+pElements.forEach((p) => console.log(p))
+pokemonElements.forEach((p) => console.log(p))
+spanElements.forEach((span) => console.log(span))
+console.log(spanElements[2])
